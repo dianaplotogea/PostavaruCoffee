@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #ffcc99;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coffee_dao.MainController">
+   <children>
+      <TextField fx:id="text_username_up" layoutX="38.0" layoutY="228.0" prefHeight="27.0" prefWidth="219.0" promptText="new" />
+      <PasswordField fx:id="pass_password_up" layoutX="38.0" layoutY="290.0" prefHeight="27.0" prefWidth="219.0" promptText="new" />
+      <Button fx:id="b_update" layoutX="160.0" layoutY="338.0" mnemonicParsing="false" onAction="#updateAccount" style="-fx-background-color: #ff1a75; -fx-background-radius: 15 15 15 15;" text="Update" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <TextField fx:id="text_username1" layoutX="43.0" layoutY="95.0" prefHeight="27.0" prefWidth="219.0" />
+      <PasswordField fx:id="pass_password1" layoutX="43.0" layoutY="158.0" prefHeight="27.0" prefWidth="219.0" promptText="New username:" />
+      <Text layoutX="33.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update your account:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Old username:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="38.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New username:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Old password:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New password:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

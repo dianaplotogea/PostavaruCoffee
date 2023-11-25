@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #ffcc99;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fitHeight="274.0" fitWidth="399.0" layoutX="-2.0" layoutY="-64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/PostaPerf.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="99.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for your order!">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The delivery is on it's way!">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Button layoutX="146.0" layoutY="230.0" mnemonicParsing="false" style="-fx-background-color: #ff1a75; -fx-background-radius: 15 15 15 15;" text="Finish ordering" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

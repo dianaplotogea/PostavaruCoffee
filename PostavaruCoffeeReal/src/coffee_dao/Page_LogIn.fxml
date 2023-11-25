@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #ffcc99;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coffee_dao.MainController">
+   <children>
+      <TextField fx:id="text_username" layoutX="75.0" layoutY="300.0" prefHeight="27.0" prefWidth="242.0" promptText="Username" />
+      <Button fx:id="b_login" layoutX="140.0" layoutY="436.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="44.0" prefWidth="116.0" style="-fx-background-color: #ff1a75; -fx-background-radius: 15 15 15 15;" text="Login" textFill="WHITE" />
+      <Button fx:id="b_signin" layoutX="149.0" layoutY="534.0" mnemonicParsing="false" onAction="#openSignUp" prefHeight="27.0" prefWidth="95.0" style="-fx-background-color: #ff1a75; -fx-background-radius: 15 15 15 15;" text="Sign up" textFill="WHITE" />
+      <PasswordField fx:id="pass_password" layoutX="77.0" layoutY="379.0" prefHeight="27.0" prefWidth="242.0" promptText="Password" />
+      <Button fx:id="b_delete" layoutX="200.0" layoutY="492.0" mnemonicParsing="false" onAction="#deleteAccount" style="-fx-background-color: #ff5c33; -fx-background-radius: 15 15 15 15;" text="Delete your account" textFill="WHITE" />
+      <Button fx:id="b_move" layoutX="64.0" layoutY="492.0" mnemonicParsing="false" onAction="#openUpdate" style="-fx-background-color: #ff5c33; -fx-background-radius: 15 15 15 15;" text="Update your account" textFill="WHITE" />
+      <ImageView fitHeight="253.0" fitWidth="417.0" layoutX="-4.0" layoutY="-52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/PostaPerf.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="40.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Postavaru Coffee App!">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please sign in to order your coffee:">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" wrappingWidth="70.033203125">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="46.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
